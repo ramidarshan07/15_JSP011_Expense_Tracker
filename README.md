@@ -7,12 +7,6 @@ A sleek and responsive **Expense Tracker** built with HTML, CSS, JavaScript, and
 
 ---
 
-## 🚀 Live Demo
-
-👉 [Click Here to View Live Project](https://yourusername.github.io/expense-tracker)
-
----
-
 ## 🛠️ Tech Stack
 
 - **HTML5** – For page structure
@@ -35,3 +29,9 @@ A sleek and responsive **Expense Tracker** built with HTML, CSS, JavaScript, and
 ✅ Smooth UI animations and Bootstrap Icons  
 
 ---
+
+## 📥 How to Run Locally
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/ramidarshan07/15_JSP011_Expense_Tracker
