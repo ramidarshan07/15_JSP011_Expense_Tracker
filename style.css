@@ -1,0 +1,71 @@
+body {
+    background-color: #b9b9b9;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.tracker-stroke {
+    color: #b9b9b9;
+    -webkit-text-stroke: 1.5px #151515;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-shadow: 0  px 0  px 8px rgba(255, 193, 7, 0.6);
+}
+
+.input-fld {
+    outline: none;
+    border: 1px solid #000000;
+}
+
+#expenseform input:focus,
+#expenseform select:focus {
+    border: 1px solid rgb(255, 193, 7);
+    box-shadow: 0 0 8px rgba(255, 193, 7, 0.747);
+}
+
+#expenseform input,
+#expenseform select {
+    box-shadow: none;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+.card {
+    background-color: #ebebeb;
+    border-radius: 10px;
+    max-width: 500px;
+    border: 1px solid #000000;
+    box-shadow: 2px -2px 10px rgba(255, 193, 7, 0.747);
+}
+
+.btn {
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.04);
+}
+
+input,
+select,
+button {
+    font-size: 1rem;
+}
+
+button i {
+    pointer-events: none;
+}
+
+.chart-container {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#expense-chart {
+    width: 100% !important;
+    height: auto !important;
+}
